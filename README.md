@@ -1,6 +1,6 @@
-<h1 align="center">Ascent</h1>
-
-<p align="center">A top-down dungeon adventure for the Game Boy Advance, written in C.</p>
+<p align="center">
+  <img src="docs/images/banner.png" alt="Ascent: a dungeon adventure for the Game Boy Advance, written in C" width="100%">
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/platform-Game%20Boy%20Advance-6A4FB6" alt="Game Boy Advance">
@@ -13,6 +13,15 @@
 **Project:** CS 2261 final submission
 
 Explore a branching dungeon, defeat enemies, collect XP, and upgrade your character as you ascend through six floors: **Sight, Sound, Taste, Smell, Touch, and Soul**. Each floor has its own room connections, boss behavior, and difficulty scaling.
+
+<table>
+  <tr>
+    <td align="center"><img src="docs/images/title.png" alt="Ascent title screen with a purple night sky, crescent moon, and tower" width="100%"><br><sub>Title screen (Mode 4)</sub></td>
+    <td align="center"><img src="docs/images/gameplay.png" alt="Ascent dungeon gameplay with the player, enemies, and heart HUD" width="100%"><br><sub>Dungeon gameplay (Mode 0)</sub></td>
+  </tr>
+</table>
+
+<sub>Actual frames captured from the included final ROM in mGBA at the GBA's native 240×160 resolution. The banner is promotional artwork inspired by the title screen.</sub>
 
 This repository contains the final project from `CSGBA/FINAL_AshokAbhay`. The original Milestone 01 documentation and screenshots are preserved in [development history](docs/milestone-01/README.md).
 
