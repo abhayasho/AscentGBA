@@ -50,4 +50,21 @@ void gameReset(void);
 void gameRenderInit(void);
 int gameUpdate(void);
 
+int gameSkillMenuTakeOpenRequest(void);
+void gameSkillMenuOpenSnapshot(void);
+void gameSkillMenuNav(int delta);
+void gameSkillMenuPressA(void);
+void gameSkillMenuSave(void);
+void gameSkillMenuDiscard(void);
+int gameSkillMenuGetSel(void);
+void gameSkillMenuGetEdit(int *str, int *con, int *mob, int *pts, int *xp);
+
+void gameSetFloor(int floor);
+int gameGetFloor(void);
+void gameSetRelaxMode(int enable);
+void gameAudioStart(void);
+void gameAudioStop(void);
+void gameAudioPause(void);
+void gameAudioResume(void);
+
 #endif

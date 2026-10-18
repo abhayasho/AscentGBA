@@ -58,6 +58,8 @@ void waitForVBlank();
 #define BUTTON_DOWN      (1<<7) // Mask for DOWN button (REG_BUTTONS or REG_KEYCNT)
 #define BUTTON_RSHOULDER (1<<8) // Mask for RIGHT SHOULDER button (REG_BUTTONS or REG_KEYCNT)
 #define BUTTON_LSHOULDER (1<<9) // Mask for LEFT SHOULDER button (REG_BUTTONS or REG_KEYCNT)
+#define BUTTON_R        BUTTON_RSHOULDER
+#define BUTTON_L        BUTTON_LSHOULDER
 
 // Button checks
 extern unsigned short oldButtons; // Keeps track of buttons pressed in previous frame

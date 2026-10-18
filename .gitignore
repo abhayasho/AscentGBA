@@ -1,0 +1,12 @@
+# macOS metadata
+.DS_Store
+
+# Compiler intermediates and emulator saves
+*.i
+*.o
+*.s
+*.elf
+*.sav
+*.ss[0-9]
+
+# Keep the playable final ROM in the repository.
