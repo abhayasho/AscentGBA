@@ -8,9 +8,7 @@
   <img src="https://img.shields.io/badge/project-Final-3B82F6" alt="Final project">
 </p>
 
-**Student:** Ashok Abhay
 
-**Project:** CS 2261 final submission
 
 Explore a branching dungeon, defeat enemies, collect XP, and upgrade your character as you ascend through six floors: **Sight, Sound, Taste, Smell, Touch, and Soul**. Each floor has its own room connections, boss behavior, and difficulty scaling.
 
